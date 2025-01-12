@@ -1,0 +1,24 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug",
+	"dir-cur-src" : "/home/arch/\u9879\u76ee/MLProject",
+	"dir-top-bld" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug",
+	"dir-top-src" : "/home/arch/\u9879\u76ee/MLProject",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/home/arch/\u9879\u76ee/MLProject/include",
+		"/home/arch/\u9879\u76ee/MLProject/tests",
+		"/home/arch/\u9879\u76ee/MLProject/googletest/googletest/include",
+		"/home/arch/\u9879\u76ee/MLProject/googletest/googletest"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug/CMakeFiles/MLTest.dir"
+}
