@@ -82058,7 +82058,6 @@ dl::tensor::Tensor<float> tensor{{1.5, 2.5, -1, -2.5, 5, 6}, {2, 3, 1}};
 int main()
 {
     tensor.print();
-    tensor.slice({{1, 2}}).print();
-    std::cout << tensor.at({0, 2, 0});
+
     return 0;
 }

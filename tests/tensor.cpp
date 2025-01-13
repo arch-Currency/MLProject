@@ -26,6 +26,14 @@ TEST(MutTest, TensorReshape)
     EXPECT_EQ(output, "[4, 1]" "\n");
 }
 
+TEST(MutTest, TensorSlice)
+{
+    dl::tensor::Tensor<int> tensor{{1, 2, 3, 4, 5, 6, 7, 8, 9}, {3, 3, 1, 1}};
+    tensor.slice({{1,2},{0,1}});
+    const std::string output = capture_output([&]() { print(tensor.data()); });
+    EXPECT_EQ(output, "[4]" "\n");
+}
+
 TEST(ValueTest, TensorIndex)
 {
     const dl::tensor::Tensor<float> tensor{{1.5, 2.5, -1, -2}, {2, 2}};
