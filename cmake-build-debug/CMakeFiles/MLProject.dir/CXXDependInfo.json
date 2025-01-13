@@ -1,21 +1,21 @@
 {
 	"bmi-installation" : null,
 	"compiler-frontend-variant" : "GNU",
-	"compiler-id" : "Clang",
+	"compiler-id" : "GNU",
 	"compiler-simulate-id" : "",
 	"config" : "Debug",
 	"cxx-modules" : {},
-	"dir-cur-bld" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug",
-	"dir-cur-src" : "/home/arch/\u9879\u76ee/MLProject",
-	"dir-top-bld" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug",
-	"dir-top-src" : "/home/arch/\u9879\u76ee/MLProject",
+	"dir-cur-bld" : "/home/arch/Projects/MLProject/cmake-build-debug",
+	"dir-cur-src" : "/home/arch/Projects/MLProject",
+	"dir-top-bld" : "/home/arch/Projects/MLProject/cmake-build-debug",
+	"dir-top-src" : "/home/arch/Projects/MLProject",
 	"exports" : [],
 	"forward-modules-from-target-dirs" : [],
 	"include-dirs" : 
 	[
-		"/home/arch/\u9879\u76ee/MLProject/include"
+		"/home/arch/Projects/MLProject/include"
 	],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
-	"module-dir" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug/CMakeFiles/MLProject.dir"
+	"module-dir" : "/home/arch/Projects/MLProject/cmake-build-debug/CMakeFiles/MLProject.dir"
 }

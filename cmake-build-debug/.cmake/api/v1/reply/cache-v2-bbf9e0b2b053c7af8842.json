@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-addr2line"
+			"value" : "/usr/bin/addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-ar"
+			"value" : "/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug"
+			"value" : "/home/arch/Projects/MLProject/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -166,8 +166,8 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "STRING",
-			"value" : "/usr/bin/clang++"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -179,27 +179,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "LLVM archiver"
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-ar"
-		},
-		{
-			"name" : "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "`clang-scan-deps` dependency scanner"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/clang-scan-deps"
+			"value" : "/usr/bin/gcc-ar"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -211,11 +195,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Generate index for LLVM archive"
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-ranlib"
+			"value" : "/usr/bin/gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -310,8 +294,8 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "STRING",
-			"value" : "/usr/bin/clang"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -323,27 +307,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "LLVM archiver"
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-ar"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_CLANG_SCAN_DEPS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "`clang-scan-deps` dependency scanner"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/clang-scan-deps"
+			"value" : "/usr/bin/gcc-ar"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -355,11 +323,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Generate index for LLVM archive"
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-ranlib"
+			"value" : "/usr/bin/gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -455,7 +423,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-dlltool"
+			"value" : "CMAKE_DLLTOOL-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -587,7 +555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/arch/Projects/MLProject/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +627,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arch/\u9879\u76ee/MLProject"
+			"value" : "/home/arch/Projects/MLProject"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1063,7 +1031,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-nm"
+			"value" : "/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1091,7 +1059,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-objcopy"
+			"value" : "/usr/bin/objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1107,7 +1075,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-objdump"
+			"value" : "/usr/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1231,7 +1199,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-ranlib"
+			"value" : "/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1247,7 +1215,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-readelf"
+			"value" : "/usr/bin/readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1467,7 +1435,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/llvm-strip"
+			"value" : "/usr/bin/strip"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1559,7 +1527,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug"
+			"value" : "/home/arch/Projects/MLProject/cmake-build-debug"
 		},
 		{
 			"name" : "MLProject_IS_TOP_LEVEL",
@@ -1583,7 +1551,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arch/\u9879\u76ee/MLProject"
+			"value" : "/home/arch/Projects/MLProject"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1631,7 +1599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug/googletest/googletest/generated"
+			"value" : "/home/arch/Projects/MLProject/cmake-build-debug/googletest/googletest/generated"
 		},
 		{
 			"name" : "gmock_BINARY_DIR",
@@ -1643,7 +1611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug/googletest/googlemock"
+			"value" : "/home/arch/Projects/MLProject/cmake-build-debug/googletest/googlemock"
 		},
 		{
 			"name" : "gmock_IS_TOP_LEVEL",
@@ -1667,7 +1635,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/googletest/googlemock"
+			"value" : "/home/arch/Projects/MLProject/googletest/googlemock"
 		},
 		{
 			"name" : "gmock_build_tests",
@@ -1695,7 +1663,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug/googletest"
+			"value" : "/home/arch/Projects/MLProject/cmake-build-debug/googletest"
 		},
 		{
 			"name" : "googletest-distribution_IS_TOP_LEVEL",
@@ -1719,7 +1687,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/googletest"
+			"value" : "/home/arch/Projects/MLProject/googletest"
 		},
 		{
 			"name" : "gtest_BINARY_DIR",
@@ -1731,7 +1699,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/cmake-build-debug/googletest/googletest"
+			"value" : "/home/arch/Projects/MLProject/cmake-build-debug/googletest/googletest"
 		},
 		{
 			"name" : "gtest_IS_TOP_LEVEL",
@@ -1755,7 +1723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/arch/\u9879\u76ee/MLProject/googletest/googletest"
+			"value" : "/home/arch/Projects/MLProject/googletest/googletest"
 		},
 		{
 			"name" : "gtest_build_samples",

@@ -49,28 +49,28 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20 -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/arch/\u9879\u76ee/MLProject/include"
+					"path" : "/home/arch/Projects/MLProject/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/arch/\u9879\u76ee/MLProject/tests"
+					"path" : "/home/arch/Projects/MLProject/tests"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/arch/\u9879\u76ee/MLProject/googletest/googletest/include"
+					"path" : "/home/arch/Projects/MLProject/googletest/googletest/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/arch/\u9879\u76ee/MLProject/googletest/googletest"
+					"path" : "/home/arch/Projects/MLProject/googletest/googletest"
 				}
 			],
 			"language" : "CXX",

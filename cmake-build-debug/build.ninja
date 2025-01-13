@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/arch/项目/MLProject/cmake-build-debug/
+cmake_ninja_workdir = /home/arch/Projects/MLProject/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target MLProject
 
@@ -49,64 +49,64 @@ cmake_ninja_workdir = /home/arch/项目/MLProject/cmake-build-debug/
 
 build cmake_object_order_depends_target_MLProject: phony || .
 
-build CMakeFiles/MLProject.dir/src/main.cpp.o.ddi: CXX_SCAN__MLProject_Debug /home/arch/项目/MLProject/src/main.cpp || cmake_object_order_depends_target_MLProject
+build CMakeFiles/MLProject.dir/src/main.cpp.o.ddi: CXX_SCAN__MLProject_Debug /home/arch/Projects/MLProject/src/main.cpp || cmake_object_order_depends_target_MLProject
   DEP_FILE = CMakeFiles/MLProject.dir/src/main.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/MLProject.dir/src/main.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include
   OBJ_FILE = CMakeFiles/MLProject.dir/src/main.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/MLProject.dir/src/main.cpp.o.ddi.i
 
-build CMakeFiles/MLProject.dir/src/main.cpp.o: CXX_COMPILER__MLProject_scanned_Debug /home/arch/项目/MLProject/src/main.cpp | CMakeFiles/MLProject.dir/src/main.cpp.o.modmap || cmake_object_order_depends_target_MLProject CMakeFiles/MLProject.dir/CXX.dd
+build CMakeFiles/MLProject.dir/src/main.cpp.o: CXX_COMPILER__MLProject_scanned_Debug /home/arch/Projects/MLProject/src/main.cpp | CMakeFiles/MLProject.dir/src/main.cpp.o.modmap || cmake_object_order_depends_target_MLProject CMakeFiles/MLProject.dir/CXX.dd
   DEP_FILE = CMakeFiles/MLProject.dir/src/main.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/MLProject.dir/src/main.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include
   OBJECT_DIR = CMakeFiles/MLProject.dir
   OBJECT_FILE_DIR = CMakeFiles/MLProject.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/MLProject.dir/
   TARGET_PDB = MLProject.pdb
   dyndep = CMakeFiles/MLProject.dir/CXX.dd
 
-build CMakeFiles/MLProject.dir/src/tensor.cpp.o.ddi: CXX_SCAN__MLProject_Debug /home/arch/项目/MLProject/src/tensor.cpp || cmake_object_order_depends_target_MLProject
+build CMakeFiles/MLProject.dir/src/tensor.cpp.o.ddi: CXX_SCAN__MLProject_Debug /home/arch/Projects/MLProject/src/tensor.cpp || cmake_object_order_depends_target_MLProject
   DEP_FILE = CMakeFiles/MLProject.dir/src/tensor.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/MLProject.dir/src/tensor.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include
   OBJ_FILE = CMakeFiles/MLProject.dir/src/tensor.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/MLProject.dir/src/tensor.cpp.o.ddi.i
 
-build CMakeFiles/MLProject.dir/src/tensor.cpp.o: CXX_COMPILER__MLProject_scanned_Debug /home/arch/项目/MLProject/src/tensor.cpp | CMakeFiles/MLProject.dir/src/tensor.cpp.o.modmap || cmake_object_order_depends_target_MLProject CMakeFiles/MLProject.dir/CXX.dd
+build CMakeFiles/MLProject.dir/src/tensor.cpp.o: CXX_COMPILER__MLProject_scanned_Debug /home/arch/Projects/MLProject/src/tensor.cpp | CMakeFiles/MLProject.dir/src/tensor.cpp.o.modmap || cmake_object_order_depends_target_MLProject CMakeFiles/MLProject.dir/CXX.dd
   DEP_FILE = CMakeFiles/MLProject.dir/src/tensor.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/MLProject.dir/src/tensor.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include
   OBJECT_DIR = CMakeFiles/MLProject.dir
   OBJECT_FILE_DIR = CMakeFiles/MLProject.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/MLProject.dir/
   TARGET_PDB = MLProject.pdb
   dyndep = CMakeFiles/MLProject.dir/CXX.dd
 
-build CMakeFiles/MLProject.dir/src/util.cpp.o.ddi: CXX_SCAN__MLProject_Debug /home/arch/项目/MLProject/src/util.cpp || cmake_object_order_depends_target_MLProject
+build CMakeFiles/MLProject.dir/src/util.cpp.o.ddi: CXX_SCAN__MLProject_Debug /home/arch/Projects/MLProject/src/util.cpp || cmake_object_order_depends_target_MLProject
   DEP_FILE = CMakeFiles/MLProject.dir/src/util.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/MLProject.dir/src/util.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include
   OBJ_FILE = CMakeFiles/MLProject.dir/src/util.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/MLProject.dir/src/util.cpp.o.ddi.i
 
-build CMakeFiles/MLProject.dir/src/util.cpp.o: CXX_COMPILER__MLProject_scanned_Debug /home/arch/项目/MLProject/src/util.cpp | CMakeFiles/MLProject.dir/src/util.cpp.o.modmap || cmake_object_order_depends_target_MLProject CMakeFiles/MLProject.dir/CXX.dd
+build CMakeFiles/MLProject.dir/src/util.cpp.o: CXX_COMPILER__MLProject_scanned_Debug /home/arch/Projects/MLProject/src/util.cpp | CMakeFiles/MLProject.dir/src/util.cpp.o.modmap || cmake_object_order_depends_target_MLProject CMakeFiles/MLProject.dir/CXX.dd
   DEP_FILE = CMakeFiles/MLProject.dir/src/util.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/MLProject.dir/src/util.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include
   OBJECT_DIR = CMakeFiles/MLProject.dir
   OBJECT_FILE_DIR = CMakeFiles/MLProject.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/MLProject.dir/
   TARGET_PDB = MLProject.pdb
   dyndep = CMakeFiles/MLProject.dir/CXX.dd
 
-build CMakeFiles/MLProject.dir/CXX.dd | /home/arch/项目/MLProject/cmake-build-debug/CMakeFiles/MLProject.dir/CXXModules.json CMakeFiles/MLProject.dir/src/main.cpp.o.modmap CMakeFiles/MLProject.dir/src/tensor.cpp.o.modmap CMakeFiles/MLProject.dir/src/util.cpp.o.modmap: CXX_DYNDEP__MLProject_Debug CMakeFiles/MLProject.dir/src/main.cpp.o.ddi CMakeFiles/MLProject.dir/src/tensor.cpp.o.ddi CMakeFiles/MLProject.dir/src/util.cpp.o.ddi | /home/arch/项目/MLProject/cmake-build-debug/CMakeFiles/MLProject.dir/CXXDependInfo.json
+build CMakeFiles/MLProject.dir/CXX.dd | /home/arch/Projects/MLProject/cmake-build-debug/CMakeFiles/MLProject.dir/CXXModules.json CMakeFiles/MLProject.dir/src/main.cpp.o.modmap CMakeFiles/MLProject.dir/src/tensor.cpp.o.modmap CMakeFiles/MLProject.dir/src/util.cpp.o.modmap: CXX_DYNDEP__MLProject_Debug CMakeFiles/MLProject.dir/src/main.cpp.o.ddi CMakeFiles/MLProject.dir/src/tensor.cpp.o.ddi CMakeFiles/MLProject.dir/src/util.cpp.o.ddi | /home/arch/Projects/MLProject/cmake-build-debug/CMakeFiles/MLProject.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -134,102 +134,102 @@ build MLProject: CXX_EXECUTABLE_LINKER__MLProject_Debug CMakeFiles/MLProject.dir
 
 build cmake_object_order_depends_target_MLTest: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build CMakeFiles/MLTest.dir/tests/function.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/项目/MLProject/tests/function.cpp || cmake_object_order_depends_target_MLTest
+build CMakeFiles/MLTest.dir/tests/function.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/Projects/MLProject/tests/function.cpp || cmake_object_order_depends_target_MLTest
   DEP_FILE = CMakeFiles/MLTest.dir/tests/function.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/MLTest.dir/tests/function.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJ_FILE = CMakeFiles/MLTest.dir/tests/function.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/MLTest.dir/tests/function.cpp.o.ddi.i
 
-build CMakeFiles/MLTest.dir/tests/function.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/项目/MLProject/tests/function.cpp | CMakeFiles/MLTest.dir/tests/function.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
+build CMakeFiles/MLTest.dir/tests/function.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/Projects/MLProject/tests/function.cpp | CMakeFiles/MLTest.dir/tests/function.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
   DEP_FILE = CMakeFiles/MLTest.dir/tests/function.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/MLTest.dir/tests/function.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJECT_DIR = CMakeFiles/MLTest.dir
   OBJECT_FILE_DIR = CMakeFiles/MLTest.dir/tests
   TARGET_COMPILE_PDB = CMakeFiles/MLTest.dir/
   TARGET_PDB = MLTest.pdb
   dyndep = CMakeFiles/MLTest.dir/CXX.dd
 
-build CMakeFiles/MLTest.dir/tests/tensor.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/项目/MLProject/tests/tensor.cpp || cmake_object_order_depends_target_MLTest
+build CMakeFiles/MLTest.dir/tests/tensor.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/Projects/MLProject/tests/tensor.cpp || cmake_object_order_depends_target_MLTest
   DEP_FILE = CMakeFiles/MLTest.dir/tests/tensor.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/MLTest.dir/tests/tensor.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJ_FILE = CMakeFiles/MLTest.dir/tests/tensor.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/MLTest.dir/tests/tensor.cpp.o.ddi.i
 
-build CMakeFiles/MLTest.dir/tests/tensor.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/项目/MLProject/tests/tensor.cpp | CMakeFiles/MLTest.dir/tests/tensor.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
+build CMakeFiles/MLTest.dir/tests/tensor.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/Projects/MLProject/tests/tensor.cpp | CMakeFiles/MLTest.dir/tests/tensor.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
   DEP_FILE = CMakeFiles/MLTest.dir/tests/tensor.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/MLTest.dir/tests/tensor.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJECT_DIR = CMakeFiles/MLTest.dir
   OBJECT_FILE_DIR = CMakeFiles/MLTest.dir/tests
   TARGET_COMPILE_PDB = CMakeFiles/MLTest.dir/
   TARGET_PDB = MLTest.pdb
   dyndep = CMakeFiles/MLTest.dir/CXX.dd
 
-build CMakeFiles/MLTest.dir/tests/util.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/项目/MLProject/tests/util.cpp || cmake_object_order_depends_target_MLTest
+build CMakeFiles/MLTest.dir/tests/util.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/Projects/MLProject/tests/util.cpp || cmake_object_order_depends_target_MLTest
   DEP_FILE = CMakeFiles/MLTest.dir/tests/util.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/MLTest.dir/tests/util.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJ_FILE = CMakeFiles/MLTest.dir/tests/util.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/MLTest.dir/tests/util.cpp.o.ddi.i
 
-build CMakeFiles/MLTest.dir/tests/util.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/项目/MLProject/tests/util.cpp | CMakeFiles/MLTest.dir/tests/util.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
+build CMakeFiles/MLTest.dir/tests/util.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/Projects/MLProject/tests/util.cpp | CMakeFiles/MLTest.dir/tests/util.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
   DEP_FILE = CMakeFiles/MLTest.dir/tests/util.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/MLTest.dir/tests/util.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJECT_DIR = CMakeFiles/MLTest.dir
   OBJECT_FILE_DIR = CMakeFiles/MLTest.dir/tests
   TARGET_COMPILE_PDB = CMakeFiles/MLTest.dir/
   TARGET_PDB = MLTest.pdb
   dyndep = CMakeFiles/MLTest.dir/CXX.dd
 
-build CMakeFiles/MLTest.dir/src/tensor.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/项目/MLProject/src/tensor.cpp || cmake_object_order_depends_target_MLTest
+build CMakeFiles/MLTest.dir/src/tensor.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/Projects/MLProject/src/tensor.cpp || cmake_object_order_depends_target_MLTest
   DEP_FILE = CMakeFiles/MLTest.dir/src/tensor.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/MLTest.dir/src/tensor.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJ_FILE = CMakeFiles/MLTest.dir/src/tensor.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/MLTest.dir/src/tensor.cpp.o.ddi.i
 
-build CMakeFiles/MLTest.dir/src/tensor.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/项目/MLProject/src/tensor.cpp | CMakeFiles/MLTest.dir/src/tensor.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
+build CMakeFiles/MLTest.dir/src/tensor.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/Projects/MLProject/src/tensor.cpp | CMakeFiles/MLTest.dir/src/tensor.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
   DEP_FILE = CMakeFiles/MLTest.dir/src/tensor.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/MLTest.dir/src/tensor.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJECT_DIR = CMakeFiles/MLTest.dir
   OBJECT_FILE_DIR = CMakeFiles/MLTest.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/MLTest.dir/
   TARGET_PDB = MLTest.pdb
   dyndep = CMakeFiles/MLTest.dir/CXX.dd
 
-build CMakeFiles/MLTest.dir/src/util.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/项目/MLProject/src/util.cpp || cmake_object_order_depends_target_MLTest
+build CMakeFiles/MLTest.dir/src/util.cpp.o.ddi: CXX_SCAN__MLTest_Debug /home/arch/Projects/MLProject/src/util.cpp || cmake_object_order_depends_target_MLTest
   DEP_FILE = CMakeFiles/MLTest.dir/src/util.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/MLTest.dir/src/util.cpp.o.ddi
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJ_FILE = CMakeFiles/MLTest.dir/src/util.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/MLTest.dir/src/util.cpp.o.ddi.i
 
-build CMakeFiles/MLTest.dir/src/util.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/项目/MLProject/src/util.cpp | CMakeFiles/MLTest.dir/src/util.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
+build CMakeFiles/MLTest.dir/src/util.cpp.o: CXX_COMPILER__MLTest_scanned_Debug /home/arch/Projects/MLProject/src/util.cpp | CMakeFiles/MLTest.dir/src/util.cpp.o.modmap || cmake_object_order_depends_target_MLTest CMakeFiles/MLTest.dir/CXX.dd
   DEP_FILE = CMakeFiles/MLTest.dir/src/util.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/MLTest.dir/src/util.cpp.o.modmap
-  FLAGS = -g -std=gnu++20 -fcolor-diagnostics
-  INCLUDES = -I/home/arch/项目/MLProject/include -I/home/arch/项目/MLProject/tests -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/arch/Projects/MLProject/include -I/home/arch/Projects/MLProject/tests -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJECT_DIR = CMakeFiles/MLTest.dir
   OBJECT_FILE_DIR = CMakeFiles/MLTest.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/MLTest.dir/
   TARGET_PDB = MLTest.pdb
   dyndep = CMakeFiles/MLTest.dir/CXX.dd
 
-build CMakeFiles/MLTest.dir/CXX.dd | /home/arch/项目/MLProject/cmake-build-debug/CMakeFiles/MLTest.dir/CXXModules.json CMakeFiles/MLTest.dir/tests/function.cpp.o.modmap CMakeFiles/MLTest.dir/tests/tensor.cpp.o.modmap CMakeFiles/MLTest.dir/tests/util.cpp.o.modmap CMakeFiles/MLTest.dir/src/tensor.cpp.o.modmap CMakeFiles/MLTest.dir/src/util.cpp.o.modmap: CXX_DYNDEP__MLTest_Debug CMakeFiles/MLTest.dir/tests/function.cpp.o.ddi CMakeFiles/MLTest.dir/tests/tensor.cpp.o.ddi CMakeFiles/MLTest.dir/tests/util.cpp.o.ddi CMakeFiles/MLTest.dir/src/tensor.cpp.o.ddi CMakeFiles/MLTest.dir/src/util.cpp.o.ddi | /home/arch/项目/MLProject/cmake-build-debug/CMakeFiles/MLTest.dir/CXXDependInfo.json
+build CMakeFiles/MLTest.dir/CXX.dd | /home/arch/Projects/MLProject/cmake-build-debug/CMakeFiles/MLTest.dir/CXXModules.json CMakeFiles/MLTest.dir/tests/function.cpp.o.modmap CMakeFiles/MLTest.dir/tests/tensor.cpp.o.modmap CMakeFiles/MLTest.dir/tests/util.cpp.o.modmap CMakeFiles/MLTest.dir/src/tensor.cpp.o.modmap CMakeFiles/MLTest.dir/src/util.cpp.o.modmap: CXX_DYNDEP__MLTest_Debug CMakeFiles/MLTest.dir/tests/function.cpp.o.ddi CMakeFiles/MLTest.dir/tests/tensor.cpp.o.ddi CMakeFiles/MLTest.dir/tests/util.cpp.o.ddi CMakeFiles/MLTest.dir/src/tensor.cpp.o.ddi CMakeFiles/MLTest.dir/src/util.cpp.o.ddi | /home/arch/Projects/MLProject/cmake-build-debug/CMakeFiles/MLTest.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -254,7 +254,7 @@ build MLTest: CXX_EXECUTABLE_LINKER__MLTest_Debug CMakeFiles/MLTest.dir/tests/fu
 # Utility command for test
 
 build CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -266,7 +266,7 @@ build test: phony CMakeFiles/test.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -277,7 +277,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/arch/项目/MLProject -B/home/arch/项目/MLProject/cmake-build-debug
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/arch/Projects/MLProject -B/home/arch/Projects/MLProject/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -295,7 +295,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -307,7 +307,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -319,7 +319,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -328,7 +328,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/arch/项目/MLProject/CMakeLists.txt
+# /home/arch/Projects/MLProject/CMakeLists.txt
 # =============================================================================
 
 
@@ -336,7 +336,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for test
 
 build googletest/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -348,7 +348,7 @@ build googletest/test: phony googletest/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -359,7 +359,7 @@ build googletest/edit_cache: phony googletest/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/arch/项目/MLProject -B/home/arch/项目/MLProject/cmake-build-debug
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/arch/Projects/MLProject -B/home/arch/Projects/MLProject/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -377,7 +377,7 @@ build googletest/list_install_components: phony
 # Utility command for install
 
 build googletest/CMakeFiles/install.util: CUSTOM_COMMAND googletest/all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -389,7 +389,7 @@ build googletest/install: phony googletest/CMakeFiles/install.util
 # Utility command for install/local
 
 build googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND googletest/all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -401,7 +401,7 @@ build googletest/install/local: phony googletest/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND googletest/all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -410,7 +410,7 @@ build googletest/install/strip: phony googletest/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/arch/项目/MLProject/googletest/CMakeLists.txt
+# /home/arch/Projects/MLProject/googletest/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -422,10 +422,10 @@ build googletest/install/strip: phony googletest/CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
 
-build googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Debug /home/arch/项目/MLProject/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+build googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Debug /home/arch/Projects/MLProject/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d
-  FLAGS = -g -std=c++20 -fcolor-diagnostics -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts
-  INCLUDES = -I/home/arch/项目/MLProject/googletest/googlemock/include -I/home/arch/项目/MLProject/googletest/googlemock -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I/home/arch/Projects/MLProject/googletest/googlemock/include -I/home/arch/Projects/MLProject/googletest/googlemock -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJECT_DIR = googletest/googlemock/CMakeFiles/gmock.dir
   OBJECT_FILE_DIR = googletest/googlemock/CMakeFiles/gmock.dir/src
   TARGET_COMPILE_PDB = lib/libgmockpdb_debug_postfix-NOTFOUND.pdb
@@ -457,10 +457,10 @@ build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug googletest/googlemo
 
 build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
 
-build googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Debug /home/arch/项目/MLProject/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+build googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Debug /home/arch/Projects/MLProject/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d
-  FLAGS = -g -std=c++20 -fcolor-diagnostics -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts
-  INCLUDES = -isystem /home/arch/项目/MLProject/googletest/googlemock/include -isystem /home/arch/项目/MLProject/googletest/googlemock -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -isystem /home/arch/Projects/MLProject/googletest/googlemock/include -isystem /home/arch/Projects/MLProject/googletest/googlemock -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJECT_DIR = googletest/googlemock/CMakeFiles/gmock_main.dir
   OBJECT_FILE_DIR = googletest/googlemock/CMakeFiles/gmock_main.dir/src
   TARGET_COMPILE_PDB = lib/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
@@ -488,7 +488,7 @@ build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug googletes
 # Utility command for test
 
 build googletest/googlemock/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -500,7 +500,7 @@ build googletest/googlemock/test: phony googletest/googlemock/CMakeFiles/test.ut
 # Utility command for edit_cache
 
 build googletest/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -511,7 +511,7 @@ build googletest/googlemock/edit_cache: phony googletest/googlemock/CMakeFiles/e
 # Utility command for rebuild_cache
 
 build googletest/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/arch/项目/MLProject -B/home/arch/项目/MLProject/cmake-build-debug
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/arch/Projects/MLProject -B/home/arch/Projects/MLProject/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -529,7 +529,7 @@ build googletest/googlemock/list_install_components: phony
 # Utility command for install
 
 build googletest/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND googletest/googlemock/all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -541,7 +541,7 @@ build googletest/googlemock/install: phony googletest/googlemock/CMakeFiles/inst
 # Utility command for install/local
 
 build googletest/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND googletest/googlemock/all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -553,7 +553,7 @@ build googletest/googlemock/install/local: phony googletest/googlemock/CMakeFile
 # Utility command for install/strip
 
 build googletest/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND googletest/googlemock/all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googlemock && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -562,7 +562,7 @@ build googletest/googlemock/install/strip: phony googletest/googlemock/CMakeFile
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/arch/项目/MLProject/googletest/googlemock/CMakeLists.txt
+# /home/arch/Projects/MLProject/googletest/googlemock/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -574,10 +574,10 @@ build googletest/googlemock/install/strip: phony googletest/googlemock/CMakeFile
 
 build cmake_object_order_depends_target_gtest: phony || .
 
-build googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Debug /home/arch/项目/MLProject/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+build googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Debug /home/arch/Projects/MLProject/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d
-  FLAGS = -g -std=c++20 -fcolor-diagnostics -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts
-  INCLUDES = -I/home/arch/项目/MLProject/googletest/googletest/include -I/home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I/home/arch/Projects/MLProject/googletest/googletest/include -I/home/arch/Projects/MLProject/googletest/googletest
   OBJECT_DIR = googletest/googletest/CMakeFiles/gtest.dir
   OBJECT_FILE_DIR = googletest/googletest/CMakeFiles/gtest.dir/src
   TARGET_COMPILE_PDB = lib/libgtestpdb_debug_postfix-NOTFOUND.pdb
@@ -609,10 +609,10 @@ build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug googletest/googlete
 
 build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
 
-build googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Debug /home/arch/项目/MLProject/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+build googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Debug /home/arch/Projects/MLProject/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d
-  FLAGS = -g -std=c++20 -fcolor-diagnostics -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts
-  INCLUDES = -isystem /home/arch/项目/MLProject/googletest/googletest/include -isystem /home/arch/项目/MLProject/googletest/googletest
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -isystem /home/arch/Projects/MLProject/googletest/googletest/include -isystem /home/arch/Projects/MLProject/googletest/googletest
   OBJECT_DIR = googletest/googletest/CMakeFiles/gtest_main.dir
   OBJECT_FILE_DIR = googletest/googletest/CMakeFiles/gtest_main.dir/src
   TARGET_COMPILE_PDB = lib/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
@@ -640,7 +640,7 @@ build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug googletes
 # Utility command for test
 
 build googletest/googletest/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -652,7 +652,7 @@ build googletest/googletest/test: phony googletest/googletest/CMakeFiles/test.ut
 # Utility command for edit_cache
 
 build googletest/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -663,7 +663,7 @@ build googletest/googletest/edit_cache: phony googletest/googletest/CMakeFiles/e
 # Utility command for rebuild_cache
 
 build googletest/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/arch/项目/MLProject -B/home/arch/项目/MLProject/cmake-build-debug
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/arch/Projects/MLProject -B/home/arch/Projects/MLProject/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -681,7 +681,7 @@ build googletest/googletest/list_install_components: phony
 # Utility command for install
 
 build googletest/googletest/CMakeFiles/install.util: CUSTOM_COMMAND googletest/googletest/all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -693,7 +693,7 @@ build googletest/googletest/install: phony googletest/googletest/CMakeFiles/inst
 # Utility command for install/local
 
 build googletest/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND googletest/googletest/all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -705,7 +705,7 @@ build googletest/googletest/install/local: phony googletest/googletest/CMakeFile
 # Utility command for install/strip
 
 build googletest/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND googletest/googletest/all
-  COMMAND = cd /home/arch/项目/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/arch/Projects/MLProject/cmake-build-debug/googletest/googletest && /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -737,28 +737,28 @@ build libgtest_main.a: phony lib/libgtest_main.a
 # =============================================================================
 
 #############################################
-# Folder: /home/arch/项目/MLProject/cmake-build-debug
+# Folder: /home/arch/Projects/MLProject/cmake-build-debug
 
 build all: phony MLProject MLTest googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/arch/项目/MLProject/cmake-build-debug/googletest
+# Folder: /home/arch/Projects/MLProject/cmake-build-debug/googletest
 
 build googletest/all: phony googletest/googlemock/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/arch/项目/MLProject/cmake-build-debug/googletest/googlemock
+# Folder: /home/arch/Projects/MLProject/cmake-build-debug/googletest/googlemock
 
 build googletest/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a googletest/googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/arch/项目/MLProject/cmake-build-debug/googletest/googletest
+# Folder: /home/arch/Projects/MLProject/cmake-build-debug/googletest/googletest
 
 build googletest/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
@@ -769,14 +769,14 @@ build googletest/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-FindBinUtils.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Clang-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Clang-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake /home/arch/项目/MLProject/CMakeLists.txt /home/arch/项目/MLProject/googletest/CMakeLists.txt /home/arch/项目/MLProject/googletest/googlemock/CMakeLists.txt /home/arch/项目/MLProject/googletest/googlemock/cmake/gmock.pc.in /home/arch/项目/MLProject/googletest/googlemock/cmake/gmock_main.pc.in /home/arch/项目/MLProject/googletest/googletest/CMakeLists.txt /home/arch/项目/MLProject/googletest/googletest/cmake/Config.cmake.in /home/arch/项目/MLProject/googletest/googletest/cmake/gtest.pc.in /home/arch/项目/MLProject/googletest/googletest/cmake/gtest_main.pc.in /home/arch/项目/MLProject/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake /home/arch/Projects/MLProject/CMakeLists.txt /home/arch/Projects/MLProject/googletest/CMakeLists.txt /home/arch/Projects/MLProject/googletest/googlemock/CMakeLists.txt /home/arch/Projects/MLProject/googletest/googlemock/cmake/gmock.pc.in /home/arch/Projects/MLProject/googletest/googlemock/cmake/gmock_main.pc.in /home/arch/Projects/MLProject/googletest/googletest/CMakeLists.txt /home/arch/Projects/MLProject/googletest/googletest/cmake/Config.cmake.in /home/arch/Projects/MLProject/googletest/googletest/cmake/gtest.pc.in /home/arch/Projects/MLProject/googletest/googletest/cmake/gtest_main.pc.in /home/arch/Projects/MLProject/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-FindBinUtils.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Clang-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Clang-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake /home/arch/项目/MLProject/CMakeLists.txt /home/arch/项目/MLProject/googletest/CMakeLists.txt /home/arch/项目/MLProject/googletest/googlemock/CMakeLists.txt /home/arch/项目/MLProject/googletest/googlemock/cmake/gmock.pc.in /home/arch/项目/MLProject/googletest/googlemock/cmake/gmock_main.pc.in /home/arch/项目/MLProject/googletest/googletest/CMakeLists.txt /home/arch/项目/MLProject/googletest/googletest/cmake/Config.cmake.in /home/arch/项目/MLProject/googletest/googletest/cmake/gtest.pc.in /home/arch/项目/MLProject/googletest/googletest/cmake/gtest_main.pc.in /home/arch/项目/MLProject/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/arch/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake /home/arch/Projects/MLProject/CMakeLists.txt /home/arch/Projects/MLProject/googletest/CMakeLists.txt /home/arch/Projects/MLProject/googletest/googlemock/CMakeLists.txt /home/arch/Projects/MLProject/googletest/googlemock/cmake/gmock.pc.in /home/arch/Projects/MLProject/googletest/googlemock/cmake/gmock_main.pc.in /home/arch/Projects/MLProject/googletest/googletest/CMakeLists.txt /home/arch/Projects/MLProject/googletest/googletest/cmake/Config.cmake.in /home/arch/Projects/MLProject/googletest/googletest/cmake/gtest.pc.in /home/arch/Projects/MLProject/googletest/googletest/cmake/gtest_main.pc.in /home/arch/Projects/MLProject/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
